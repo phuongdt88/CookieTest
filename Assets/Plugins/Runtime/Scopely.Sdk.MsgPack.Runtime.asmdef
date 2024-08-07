@@ -1,0 +1,22 @@
+{
+  "name": "Scopely.Sdk.MsgPack.Runtime",
+  "references": [
+    "Scopely.Sdk.Core.Runtime",
+    "MessagePack",
+    "MessagePack.Annotations"
+  ],
+  "optionalUnityReferences": [],
+  "includePlatforms": [],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [
+    "Microsoft.NET.StringTools.dll",
+    "System.Buffers.dll",
+    "System.Memory.dll",
+    "System.Runtime.CompilerServices.Unsafe.dll",
+    "System.Threading.Tasks.Extensions.dll"
+  ],
+  "autoReferenced": true,
+  "defineConstraints": []
+}

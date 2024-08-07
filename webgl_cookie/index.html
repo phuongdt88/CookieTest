@@ -6,6 +6,9 @@
     <title>Unity WebGL Player | CookieTest</title>
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/microsoft-signalr/8.0.0/signalr.min.js"></script>
+    <script src="/msgpack.js"></script>
+    <script src="/signalr-protocol-msgpack.min.js"></script>
   </head>
   <body>
     <div id="unity-container" class="unity-desktop">
@@ -58,9 +61,9 @@
       var buildUrl = "Build";
       var loaderUrl = buildUrl + "/webgl_cookie.loader.js";
       var config = {
-        dataUrl: buildUrl + "/webgl_cookie.data.gz",
-        frameworkUrl: buildUrl + "/webgl_cookie.framework.js.gz",
-        codeUrl: buildUrl + "/webgl_cookie.wasm.gz",
+        dataUrl: buildUrl + "/webgl_cookie.data",
+        frameworkUrl: buildUrl + "/webgl_cookie.framework.js",
+        codeUrl: buildUrl + "/webgl_cookie.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
         productName: "CookieTest",
